@@ -1,5 +1,5 @@
 html, body {
-  margin: 0;
+  margin: 700;
   padding: 0;
 }
 
@@ -13,31 +13,36 @@ h2 {
 
 .logo .img{
     float: center;
-    font-size: 80%;
+    font-size: 60%;
     margin-left: 30px;
     font-family: 'Raleway';
     image-rendering: crisp-edges;
     -ms-flex-item-align: stretch;
-    margin-top: 18px;
+    margin-top: 16px;
     margin: 0 auto;
+    flex: shrink;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
-  background-color: #595959;
+  background:#595959;
+  /*background-color: hsl(0, 0%, 20% 0.8);*/
   position: fixed;
   width: 100%;
   z-index: 6;
 }
 
- /*.header {
-  background-image: url("");
-  background-position: center;
+.jumbotron {
+  height: 800px;
+  background-image: url("../images/Cotwoldscent_46387485_Preview.jpeg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  height: 320px;
-
-}*/
-
-
+  background-position:center;
+}
 
 nav {
   margin: 0;
@@ -55,15 +60,15 @@ nav li {
 
 main {
   text-align: center;
-  postion: relative;
+  position: relative;
   top: 80px;
 }
 
-main h1 {
+main h4 {
   color: #333;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 70px;
+  font-size: 50px;
   margin-top: 0px;
   padding-top: 80px;
   margin-bottom: 80px;
@@ -94,14 +99,7 @@ footer p {
   text-align: center;
 }
 
-.jumbotron {
-  height: 800px;
-  background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
 
 .btn-main {
   background-color: #333;
