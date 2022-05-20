@@ -3,6 +3,10 @@ html, body {
   padding: 0;
 }
 
+h2, #logo{
+  color: white;
+}
+
 
 h2 {
     font-family: 'Raleway';
